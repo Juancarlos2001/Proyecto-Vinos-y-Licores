@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+body{background-color: black;}
+.reg{color: red;}
+*{
+        font-family: montserrat;
+}
+.main{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    height: 1500px;
+    background-color: #ffffff;
+}
+.main__targettext>p{ /*Clase Principal*/
+    display: inline-block;
+    position: relative;
+    top: 13em;
+    margin-left: 5em;
+    max-width: 38%;
+    height: auto;
+    font-family: var(--cursiva);
+}
+.main__targettext1{
+    display: inline-block;
+    margin-top: 100vh;
+    margin-left: 120vh;
+    max-width: 40%;
+    height: auto;
+    font-family: var(--cursiva);
+}
+
+.main__img >img{  /*Mi primer imagen*/
+    display: inline-block;
+    position: absolute;
+    object-fit: contain;
+    top: 20em;
+    max-width: 45%;
+    height: auto;
+    margin-left: 40em;
+    /*JS*/
+    opacity: 0;
+    transform: scale(0.9);
+    transition: .7s ease-in-out all;
+}
+.main__img>img:nth-child(2){  /*La segunda Imagen*/
+    position: absolute;
+    top: 60em;
+    max-width: 45%;
+    height: auto;
+    margin-left: 6em;
+    /*JS*/
+    opacity: 0;
+    transform: scale(0.9);
+    transition: .7s ease-in-out all;
+}
+/*JAVA SCRIPT*/
+.main__img img.izquierda{transform: translateX(50px);}
+.main__img img.derecha{transform: translateX(-50px);}
+.main__img>img.visible{/*JS MOVIENTO IMG*/opacity: 1;transform: scale(1) translateX(0);}
+.main__img>img.visible:nth-child(2){/*JS MOVIENTO IMG*/opacity: 1;transform: scale(1) translateX(0);}
+/*TERMINACION DE JAVASCRIPT*/
+
+.main__targettext{
+    font-size: 120%;
+}
+.main__targettext1{
+    font-size: 120%;
+}
