@@ -4,5 +4,5 @@
 #Juan Carlos Guillen Gomez
 #Joel Guille Morales
 
-La pagina es de Vinos Y licores en linea, para poder comprar con gusto cada uno de los productos, con el fin de ahorrarle tiempo al cliente
+Esta pagina consiste en hacer ventas en linea de vinos y licores, consiste en comprar productos que necesiten las personas, solo a mayores de +18-
 
